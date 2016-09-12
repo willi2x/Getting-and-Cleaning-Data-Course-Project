@@ -12,12 +12,12 @@ You should create one R script called run_analysis.R that does the following.
 ## Analysis Files
 run_analysis.R  is basically a script that compiles several datasets of human activity recognition collected smartphones, cleans up the data and saves it in a much more readable form. He are some of the functions in order:
 
-### It reads several datasets
-1.subject_test 
-2.X_test
-3.y_test
-4.subject_train 
-5.X_train 
-6.y_train 
+#### It reads several datasets
+1. subject_test 
+2. X_test
+3. y_test
+4. subject_train 
+5. X_train 
+6. y_train 
 
 ###

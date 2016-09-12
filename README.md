@@ -20,17 +20,20 @@ run_analysis.R  is basically a script that combines multiple datasets of human a
 5. X_train 
 6. y_train 
 
-#### merging data sets
+#### It merges these datasets
 1. Merging all elements of the test datasets to an object called "testCombined" 
 2. Merging all elements of the train datasets to an object called "trainCombined"
 3. Merging both "testCombined" and "trainCombined" to an object called "allCombined"
 
-#### Extracting only the mean and the sd
+#### It extracts only the mean and the sd
 1. using the grepl function we sort and save these variables to an object called meanANDsd
 2. we then re add it to the allComined object
 
-#### Changes the activity variable from number to more decriptive labels as dicbribed in the document activity_labels.txt 
+##### It changes the activity variable from number to more decriptive labels as dicbribed in the document activity_labels.txt 
 
+##### It cleans up all the labels so that they are more decriscriptive abd easier to understand
+
+##### It creates more tidy dataset and saves it to a file called tidy.txt
  
 
 

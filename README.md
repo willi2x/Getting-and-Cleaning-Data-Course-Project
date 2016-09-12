@@ -10,13 +10,14 @@ You should create one R script called run_analysis.R that does the following.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Analysis Files
-run_analysis.R  is basically a script that compiles several datasets of human activity recognition collected smartphones, cleans up the data and saves it in a much more readable form. He are some of the functions in order
-1. It reads several datasets
-⋅⋅*subject_test
-⋅⋅⋅X_test
-⋅⋅⋅y_test <- read.table("./test/y_test.txt")
+run_analysis.R  is basically a script that compiles several datasets of human activity recognition collected smartphones, cleans up the data and saves it in a much more readable form. He are some of the functions in order:
 
-#Read Train Data
-subject_train <- read.table("./train/subject_train.txt")
-X_train <- read.table("./train/X_train.txt")
-y_train <- read.table 
+### It reads several datasets
+1.subject_test 
+2.X_test
+3.y_test
+4.subject_train 
+5.X_train 
+6.y_train 
+
+###
